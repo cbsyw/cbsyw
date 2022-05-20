@@ -1,0 +1,315 @@
+*{
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+}
+
+
+*{
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  text-decoration: none;
+  list-style: none;
+  -webkit-font-smoothing: anitaliased;
+  box-sizing: border-box;  
+}
+
+
+
+
+*{
+    background-color: rgb(255, 255, 255);
+    opacity: 100%;
+    transition: opacity 0.4s;
+    transition-delay: 0.4s; }
+
+
+/* HEADER */
+
+
+header {
+  display: flex;
+  justify-content: space-between;
+  height: 120px;
+  align-items: center;
+  padding-top: 5%;
+
+  font-size: large;
+ }
+
+header a {
+  font-family: tt-bold;
+  font-size: 16px;
+  color: rgb(0, 0, 0);
+  transition: color 0.2s;
+  font-family: Arial, Helvetica, sans-serif;}
+header a:hover {
+  color: #ff0000; }
+header li {
+  display: block;
+  float: right; 
+  font-family: Arial, Helvetica, sans-serif;}
+  header li a {
+    margin-left: 24px; }
+    @media screen and (min-width: 320px) and (max-width: 768px) {
+      header li a {
+        margin-left: 16px; } }
+@media only screen and (min-width: 1921px) {
+  header {
+    margin-right: auto;
+    margin-left: auto;
+    width: 1440px; } }
+@media screen and (min-width: 1024px) and (max-width: 1921px) {
+  header {
+    margin-right: 20%;
+    margin-left: 20%; } }
+@media screen and (min-width: 320px) and (max-width: 1024px) {
+  header {
+    margin-right: 4%;
+    margin-left: 4%; } }
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  header {
+    height: 100px; } }
+
+
+
+
+
+/* article section */
+  
+
+  
+  a.inline__link {
+    color: #384bf8;
+    border-bottom: solid 1px rgba(56, 132, 248, 0.4);
+    transition: color 0.2s, border-bottom 0.2s; 
+    font-family: Arial, Helvetica, sans-serif;}
+  
+  a.inline__link:hover {
+    color: #CFCFCF;
+    border-bottom: solid 1px #111; }
+  
+  article.copy__hero {
+    margin: 0% 30%; }
+    @media only screen and (min-width: 1921px) {
+      article.copy__hero {
+        margin: 0% 34.5%; } }
+    @media screen and (min-width: 320px) and (max-width: 768px) {
+      article.copy__hero {
+        margin: 0% 4%; } }
+    article.copy__hero h2 {
+      color: rgb(0, 0, 0);
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 36px;
+      margin-top: 120px;
+      margin-bottom: 16px; }
+      @media screen and (min-width: 320px) and (max-width: 768px) {
+        article.copy__hero h2 {
+          font-size: 28px;
+          margin-top: 80px;
+          margin-bottom: 16px; } }
+    article.copy__hero p {
+      color: #000000;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 26px;
+      line-height: 170%;
+      margin-bottom: 120px;
+      line-height: 160%; }
+      @media screen and (min-width: 320px) and (max-width: 768px) {
+        article.copy__hero p {
+          font-size: 20px;
+          margin-bottom: 80px; } }
+
+ 
+      
+
+  section.color {
+    width: 100%;
+    height: auto;
+    overflow-x: hidden; }
+    section.color img {
+      width: 90%;
+      margin-left: 5%;
+      height: auto;
+      display: block; }
+      @media screen and (min-width: 320px) and (max-width: 768px) {
+        section.color img {
+          width: 95%;
+          height: auto;
+          margin-left: 2.5%; 
+        align-items: center;} }
+  
+  article.copy {
+    margin: 0% 30%; }
+    @media only screen and (min-width: 1921px) {
+      article.copy {
+        margin: 0% 34.5%; } }
+    @media screen and (min-width: 320px) and (max-width: 768px) {
+      article.copy {
+        margin: 0% 4%; } }
+    article.copy h2 {
+      color: rgb(0, 0, 0);
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 36px;
+      margin-top: 120px;
+      margin-bottom: 32px; }
+      @media screen and (min-width: 320px) and (max-width: 768px) {
+        article.copy h2 {
+          font-size: 28px;
+          margin-top: 80px;
+          margin-bottom: 16px; } }
+    article.copy p {
+      color: #000000;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 20px;
+      line-height: 170%; 
+      text-decoration: none;}
+      @media screen and (min-width: 320px) and (max-width: 768px) {
+        article.copy p {
+          font-size: 16px; } }
+    article.copy p.single {
+      margin-top: 120px; }
+      @media screen and (min-width: 320px) and (max-width: 768px) {
+        article.copy p.single {
+          margin-top: 80px;
+          margin-bottom: 16px; } }
+
+    article.copyend {
+    margin: 0% 30%; }
+    @media only screen and (min-width: 1921px) {
+        article.copyend {
+        margin: 0% 34.5%; } }
+    @media screen and (min-width: 320px) and (max-width: 768px) {
+        article.copyend {
+        margin: 0% 4%; } }
+    article.copyend h2 {
+        color: rgb(0, 0, 0);
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 36px;
+        margin-top: 120px;
+        margin-bottom: 32px;
+        margin-top: 32px; }
+        @media screen and (min-width: 320px) and (max-width: 768px) {
+        article.copyend h2 {
+            font-size: 28px;
+            margin-top: 80px;
+            margin-bottom: 16px; } }
+    article.copyend p {
+        color: #000000;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        line-height: 170%; 
+        margin-bottom: 32px;}
+        @media screen and (min-width: 320px) and (max-width: 768px) {
+        article.copyend p {
+            font-size: 16px;
+            margin-bottom: 32px; } }
+    article.copyend p.single {
+        margin-top: 120px; }
+        @media screen and (min-width: 320px) and (max-width: 768px) {
+        article.copyend p.single {
+            margin-top: 80px;
+            margin-bottom: 16px; } }
+
+  
+  section.col-full-width {
+    display: inline-block;
+    width: 90%;
+    height: auto;
+    margin-top: 120px; 
+    margin-left: 5%;}
+    @media screen and (min-width: 320px) and (max-width: 768px) {
+      section.col-full-width {
+        margin-top: 80px; } }
+    section.col-full-width img {
+      display: block;
+      width: 100%;
+      height: auto; }
+    section.col-full-width img.asset-1 {
+      margin-bottom: 16px; }
+      @media screen and (min-width: 320px) and (max-width: 768px) {
+        section.col-full-width img.asset-1 {
+          margin-bottom: 8px; } }
+    section.col-full-width img.asset-2 {
+      margin-top: 16px; }
+      @media screen and (min-width: 320px) and (max-width: 768px) {
+        section.col-full-width img.asset-2 {
+          margin-top: 8px; } }
+
+
+  
+
+section.col-23 {
+  display: block;
+  margin: 0% 20%;
+  margin-top: 120px; }
+  @media screen and (min-width: 320px) and (max-width: 768px) {
+    section.col-23 {
+      margin: 30% 0%;
+      margin-top: 120px; } }
+  section.col-23 img {
+    display: block;
+    width: 90%;
+    height: auto; 
+    margin-left: 5%;}
+  section.col-23 img.asset-1 {
+    margin-bottom: 16px; }
+    @media screen and (min-width: 320px) and (max-width: 768px) {
+      section.col-23 img.asset-1 {
+        margin-bottom: 8px; } }
+  section.col-23 img.asset-2 {
+    margin-top: 16px; }
+    @media screen and (min-width: 320px) and (max-width: 768px) {
+      section.col-23 img.asset-2 {
+        margin-top: 8px; } }
+
+
+
+
+
+
+
+
+  
+
+  
+  section.col-24 {
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    margin-top: 120px; }
+    @media screen and (min-width: 320px) and (max-width: 768px) {
+      section.col-24 {
+        margin-top: 80px; } }
+    section.col-24 img {
+      display: block;
+      width: 90%;
+      margin-left: 5%;
+      height: auto;
+      float: left; }
+      @media screen and (min-width: 320px) and (max-width: 768px) {
+        section.col-2 img {
+          width: 100%;
+          float: none;
+          margin-bottom: 8px; } }
+  
+  section.col-2__posters {
+    display: flex;
+    justify-content: space-around;
+    margin: 0% 4%;
+    margin-top: 120px; }
+    @media screen and (min-width: 320px) and (max-width: 768px) {
+      section.col-2__posters {
+        display: block;
+        margin: 0% 4%; } }
+    section.col-2__posters img {
+      width: 40%;
+      height: auto;
+      float: left; }
+      @media screen and (min-width: 320px) and (max-width: 768px) {
+        section.col-2__posters img {
+          width: 100%;
+          float: none;
+          margin: 4% 0%; } }
+  
