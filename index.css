@@ -1,0 +1,173 @@
+
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    
+}
+
+/* Header Section */
+
+.clearBoth { clear:both; }
+  
+.header{
+    position:fixed;
+    left:0;
+    width:100%;
+    height: 70px;
+    background-color: #ffffff;
+    margin-top: -10px;
+}
+
+.header__left{
+    padding: 10px;
+    font-size: 2.5rem;
+}
+
+.header__right{
+    float: right;
+    padding: 10px;
+    font-size: 2.5rem;
+}
+
+.nav-item__home{
+    text-decoration: none;
+    color: black;
+}   
+
+.info{
+    text-decoration: none;
+    color: black;
+}
+
+
+.row{
+    height: 650px;
+}  
+
+
+
+/* Body of TEXTTTTTT */
+
+.row{
+    padding-top: 110px;
+    line-height: 1.5;
+    padding-left: 250px;
+
+}
+
+
+
+
+/* Footer Section */
+.footer {
+    position:fixed;
+    bottom:0;
+    left:0;
+    width:100%;
+    height: 140px;
+    background-color: #ffffff;
+      
+  }
+
+hr{
+    display: block;
+    margin-top: -10em;
+    margin-bottom: 3em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: solid none none none;
+    border-color: #a79d9d;
+    border-width: 90px;
+    width: 98%;
+}
+
+
+.footer-text-left {
+  font-size:23px;
+  padding-left:20px;
+  float:left;
+  word-spacing:20px;
+  border-top: #090606;
+  text-decoration: none;
+
+}
+
+.projects{
+    padding-left: 20px;
+    font-size: 19px;
+    margin-bottom: -10px;
+}
+.footer a{
+    text-decoration: none;
+    color: black;
+}
+
+.footer li {
+    list-style-type: none;
+    line-height: 1.2;
+    font-size: 21px;
+    color: #090606;
+    padding-left:20px;
+}
+
+
+
+/* text on index page */
+
+.main__container {
+    display: grid;
+    align-items: center;
+    justify-self: center;
+    margin: 0 auto;
+    height: 90vh;
+    background-color: #000000de
+    z-index: 1;
+    width: 100%;
+    max-width: 1300px;
+    padding: 0 50px;
+
+  }
+  
+  .main__content h1{
+    color: rgb(0, 0, 0);
+    font-size: 3rem ;
+    text-align: center;
+  
+  }
+  
+
+
+ 
+
+@media only screen and (max-width: 1000px) {
+
+    .demo-content__left{
+        height: 700px;
+    }
+
+    .row{
+        padding-top: 110px;
+        line-height: 1.5;
+        padding-left: 0px;
+    
+    }
+    
+}
+  
+  
+
+@media only screen and (max-width: 928px) {
+
+    .demo-content__left{
+        height: 600px;
+    }
+    .row{
+        padding-top: 110px;
+        line-height: 1.5;
+        padding-left: 0px;
+    
+    }
+    
+}
