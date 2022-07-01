@@ -269,7 +269,7 @@ article.copy {
       font-size: 20px;
       line-height: 170%; 
       margin-bottom: 32px;
-      height: 300px; }
+      height: 350px; }
       @media screen and (min-width: 320px) and (max-width: 768px) {
       article.copyend p {
           font-size: 16px;
