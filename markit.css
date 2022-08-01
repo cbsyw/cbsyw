@@ -286,7 +286,7 @@ section.col-full-width {
   width: 60%;
   height: auto;
   margin-top: 120px; 
-  margin-left: 15%;}
+  margin-left: 20%;}
   @media screen and (min-width: 320px) and (max-width: 768px) {
     section.col-full-width {
       margin-top: 80px; } }
