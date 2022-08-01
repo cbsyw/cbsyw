@@ -283,10 +283,10 @@ article.copy {
 
 section.col-full-width {
   display: inline-block;
-  width: 70%;
+  width: 60%;
   height: auto;
   margin-top: 120px; 
-  margin-left: 20%;}
+  margin-left: 15%;}
   @media screen and (min-width: 320px) and (max-width: 768px) {
     section.col-full-width {
       margin-top: 80px; } }
@@ -344,7 +344,7 @@ section.col-23 img.asset-2 {
 
 section.col-24 {
   display: inline-block;
-  width: 50%;
+  width: 70%;
   margin-left: 15%;
   height: auto;
   margin-top: 120px; }
