@@ -193,12 +193,12 @@ article.copy__hero {
     
 
 section.color {
-  width: 90%;
+  width: 80%;
   height: auto;
-  overflow-x: hidden; }
+  overflow-x: hidden;
+ margin-left: 15%;}
   section.color img {
     width: 90%;
-    margin-left: 10%;
     height: auto;
     display: block; }
     @media screen and (min-width: 320px) and (max-width: 768px) {
@@ -284,10 +284,10 @@ article.copy {
 
 section.col-full-width {
   display: inline-block;
-  width: 90%;
+  width: 70%;
   height: auto;
   margin-top: 120px; 
-  margin-left: 5%;}
+  margin-left: 15%;}
   @media screen and (min-width: 320px) and (max-width: 768px) {
     section.col-full-width {
       margin-top: 80px; } }
