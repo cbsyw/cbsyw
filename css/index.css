@@ -91,7 +91,7 @@ header {
 }
 
 footer {
-  height: 1000px;
+  height: 10px;
   flex-shrink: 0;
 }
 
