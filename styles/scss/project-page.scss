@@ -1,0 +1,1141 @@
+
+
+
+@import 'base';
+@import 'variables';
+
+
+
+// ====
+// Hero
+// ====
+
+header {
+  position: relative;
+}
+
+section.project-hero {
+
+  max-width: $max-width;
+  width: 100%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+
+  // Breakpoints
+
+  @media screen and (min-width: $breakpoint__medium) and (max-width: $breakpoint__large) {
+
+    // background-color: green;
+    
+    width: auto;
+
+    margin-left: 80px;
+    margin-right: 80px;
+
+  }
+
+  @media screen and (min-width: $breakpoint__small) and (max-width: $breakpoint__medium) {
+    
+    // background-color: yellow;
+
+    width: auto;
+
+    margin-left: 16px;
+    margin-right: 16px;
+
+  }
+
+  h1 {
+    
+    // Layout
+
+    margin-top: 80px;
+    max-width: $max-width;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+
+    // Text Styles
+  
+    font-family: LibreBaskerville-Regular;
+    font-size: $font-size__72;
+    color: $black;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+
+    // Breakpoints
+  
+    @media screen and (min-width: $breakpoint__medium) and (max-width: $breakpoint__large) {
+  
+      // background-color: green;
+
+      max-width: auto;
+      width: auto;
+  
+    }
+  
+    @media screen and (min-width: $breakpoint__small) and (max-width: $breakpoint__medium) {
+      
+      // background-color: yellow;
+
+      margin-top: 0;
+      max-width: auto;
+      width: auto;
+
+      font-size: $font-size__48;
+  
+    }
+  
+  }
+  
+  h2 {
+  
+    // Layout
+
+    margin-top: 40px;
+    
+    // Text Styles
+  
+    font-family: LibreBaskerville-Regular;
+    font-size: $font-size__24;
+    line-height: $line-height__40;
+    color: $black;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+
+    // Breakpoints
+
+    @media screen and (min-width: $breakpoint__medium) and (max-width: $breakpoint__large) {
+
+      // background-color: green;
+
+      max-width: auto;
+      width: auto;
+  
+    }
+  
+    @media screen and (min-width: $breakpoint__small) and (max-width: $breakpoint__medium) {
+      
+      // background-color: yellow;
+
+      max-width: auto;
+      width: auto;
+
+      font-size: $font-size__16;
+      line-height: $line-height__24;
+  
+    }
+  
+  }
+
+  img.thumbnail-image {
+
+    display: block;
+    max-width: $max-width;
+    width: 100%;
+    height: auto;
+
+    margin-top: 80px;
+    margin-bottom: 80px;
+
+    // Breakpoints
+
+    @media screen and (min-width: $breakpoint__medium) and (max-width: $breakpoint__large) {
+
+      // opacity: 0.2;
+      
+      max-width: 100%;
+      width: auto;
+  
+    }
+  
+    @media screen and (min-width: $breakpoint__small) and (max-width: $breakpoint__medium) {
+      
+      // background-color: yellow;
+
+      max-width: 100%;
+      width: auto;
+
+      margin-top: 40px;
+      margin-bottom: 40px;
+  
+    }
+
+  }
+
+}
+
+
+
+// ===============
+// Project Content
+// ===============
+
+section.project-content {
+
+  max-width: $max-width;
+  width: $max-width;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+
+  // Breakpoints
+
+  @media screen and (min-width: $breakpoint__medium) and (max-width: $breakpoint__large) {
+
+    // background-color: green;
+    
+    width: auto;
+
+    margin-left: 80px;
+    margin-right: 80px;
+
+  }
+
+  @media screen and (min-width: $breakpoint__small) and (max-width: $breakpoint__medium) {
+    
+    // background-color: yellow;
+
+    width: auto;
+
+    margin-left: 16px;
+    margin-right: 16px;
+
+  }
+
+  a {
+    color: $black;
+    text-decoration: underline;
+  }
+
+  article.col-2 {
+
+    div.col-left {
+
+      width: 65%;
+      float: left;
+
+      // Breakpoints
+
+      @media screen and (min-width: $breakpoint__medium) and (max-width: $breakpoint__large) {
+
+        width: 100%;
+
+      }
+
+      @media screen and (min-width: $breakpoint__small) and (max-width: $breakpoint__medium) {
+        
+        width: 100%;
+
+      }
+      
+      div.content-block {
+
+        margin-bottom: 80px;
+
+        // Breakpoints
+
+        @media screen and (min-width: $breakpoint__medium) and (max-width: $breakpoint__large) {
+
+          margin-bottom: 40px;
+          width: 100%;
+
+        }
+
+        @media screen and (min-width: $breakpoint__small) and (max-width: $breakpoint__medium) {
+          
+          margin-bottom: 40px;
+          width: 100%;
+
+        }
+
+        h1 {
+
+          // Layout
+      
+          margin-bottom: 24px;
+      
+          // Text Styles
+        
+          font-family: LibreBaskerville-Regular;
+          font-size: $font-size__24;
+          color: $black;
+          -moz-osx-font-smoothing: grayscale;
+          -webkit-font-smoothing: antialiased;
+          line-height: 30px;
+
+          // Breakpoints
+
+          @media screen and (min-width: $breakpoint__small) and (max-width: $breakpoint__medium) {
+            
+            font-size: $font-size__20;
+            line-height: auto;
+
+          }
+      
+          }
+      
+          p {
+      
+          // Layout
+      
+          margin-bottom: 24px;
+          
+          // Text Styles
+        
+          font-family: OverpassMono-Regular;
+          font-size: $font-size__18;
+          color: $black;
+          -moz-osx-font-smoothing: grayscale;
+          -webkit-font-smoothing: antialiased;
+          line-height: 28px;
+
+          // Breakpoints
+
+          @media screen and (min-width: $breakpoint__small) and (max-width: $breakpoint__medium) {
+  
+            font-size: $font-size__16;
+            line-height: $line-height__24;
+
+          }
+      
+        }
+
+      }
+
+    }
+
+    div.col-right {
+
+      float: right;
+
+      // Breakpoints
+
+      @media screen and (min-width: $breakpoint__medium) and (max-width: $breakpoint__large) {
+
+        float: left;
+
+      }
+
+      @media screen and (min-width: $breakpoint__small) and (max-width: $breakpoint__medium) {
+        
+        float: left;
+
+      }      
+
+      div.content-block {
+
+        margin-bottom: 80px;
+
+        // Breakpoints
+
+        @media screen and (min-width: $breakpoint__medium) and (max-width: $breakpoint__large) {
+
+          margin-bottom: 40px;
+
+        }
+
+        @media screen and (min-width: $breakpoint__small) and (max-width: $breakpoint__medium) {
+          
+          margin-bottom: 40px;
+
+        }
+
+        h1 {
+
+          // Layout
+      
+          margin-bottom: 24px;
+      
+          // Text Styles
+        
+          font-family: LibreBaskerville-Regular;
+          font-size: $font-size__24;
+          color: $black;
+          -moz-osx-font-smoothing: grayscale;
+          -webkit-font-smoothing: antialiased;
+          line-height: 30px;
+
+          // Breakpoints
+
+          @media screen and (min-width: $breakpoint__small) and (max-width: $breakpoint__medium) {
+  
+            font-size: $font-size__20;
+            line-height: auto;
+
+          }
+
+        }
+
+        p {
+
+          // Layout
+      
+          margin-bottom: 8px;
+          
+          // Text Styles
+        
+          font-family: OverpassMono-Regular;
+          font-size: $font-size__18;
+          color: $black;
+          -moz-osx-font-smoothing: grayscale;
+          -webkit-font-smoothing: antialiased;
+          line-height: 28px;
+
+          // Breakpoints
+
+          @media screen and (min-width: $breakpoint__small) and (max-width: $breakpoint__medium) {
+
+            font-size: $font-size__16;
+            line-height: $line-height__24;
+
+          }
+
+        }
+
+        a {
+
+          // Layout
+      
+          margin-bottom: 8px;
+          display: block;
+          
+          // Text Styles
+        
+          font-family: OverpassMono-Regular;
+          font-size: $font-size__18;
+          color: $black;
+          -moz-osx-font-smoothing: grayscale;
+          -webkit-font-smoothing: antialiased;
+          line-height: 28px;
+          text-decoration: underline;
+
+          // Breakpoints
+
+          @media screen and (min-width: $breakpoint__small) and (max-width: $breakpoint__medium) {
+
+            font-size: $font-size__16;
+            line-height: $line-height__24;
+
+          }
+          
+        }
+
+      }
+
+    }
+
+  }
+
+  article.col-1 {
+
+    clear: both;
+
+    div.col-left {
+
+      width: 65%;
+
+      @media screen and (min-width: $breakpoint__medium) and (max-width: $breakpoint__large) {
+
+        width: 100%;
+
+      }
+
+      @media screen and (min-width: $breakpoint__small) and (max-width: $breakpoint__medium) {
+        
+        width: 100%;
+
+      }
+
+      div.content-block {
+
+        margin-bottom: 80px;
+
+        // Breakpoints
+
+        @media screen and (min-width: $breakpoint__medium) and (max-width: $breakpoint__large) {
+
+          margin-bottom: 40px;
+          width: 100%;
+
+        }
+
+        @media screen and (min-width: $breakpoint__small) and (max-width: $breakpoint__medium) {
+          
+          margin-bottom: 40px;
+          width: 100%;
+
+        }
+
+        h1 {
+          // Layout
+      
+          margin-bottom: 24px;
+      
+          // Text Styles
+        
+          font-family: LibreBaskerville-Regular;
+          font-size: $font-size__24;
+          color: $black;
+          -moz-osx-font-smoothing: grayscale;
+          -webkit-font-smoothing: antialiased;
+          line-height: 30px;
+
+          // Breakpoints
+
+          @media screen and (min-width: $breakpoint__small) and (max-width: $breakpoint__medium) {
+  
+            font-size: $font-size__20;
+            line-height: auto;
+
+          }          
+      
+          }
+      
+          p {
+      
+          // Layout
+      
+          margin-bottom: 24px;
+          
+          // Text Styles
+        
+          font-family: OverpassMono-Regular;
+          font-size: $font-size__18;
+          color: $black;
+          -moz-osx-font-smoothing: grayscale;
+          -webkit-font-smoothing: antialiased;
+          line-height: 28px;
+
+          // Breakpoints
+
+          @media screen and (min-width: $breakpoint__small) and (max-width: $breakpoint__medium) {
+
+            font-size: $font-size__16;
+            line-height: $line-height__24;
+
+          }
+          
+        }
+
+        ol.project-reasons {
+          
+          font-family: OverpassMono-Regular;
+          font-size: $font-size__18;
+          color: $black;
+          -moz-osx-font-smoothing: grayscale;
+          -webkit-font-smoothing: antialiased;
+          line-height: 28px;
+          margin-left: 32px;
+          margin-top: 24px;
+
+          // Breakpoints
+
+          @media screen and (min-width: $breakpoint__small) and (max-width: $breakpoint__medium) {
+
+            font-size: $font-size__16;
+            line-height: $line-height__24;
+
+          }
+          
+          li {
+            
+            list-style: decimal;
+            display: list-item;
+            list-style-position: outside;
+            padding-left: 8px;
+            margin-bottom: 24px;
+
+          }
+
+        }
+
+      }
+
+    }
+
+  }
+
+  article.col-2-asset {
+
+    overflow: auto;
+    margin-bottom: 80px;
+
+    // Breakpoints
+
+    @media screen and (min-width: $breakpoint__medium) and (max-width: $breakpoint__large) {
+
+      margin-bottom: 40px;
+
+    }
+
+    @media screen and (min-width: $breakpoint__small) and (max-width: $breakpoint__medium) {
+      
+      margin-bottom: 40px;
+
+    }
+
+    div.video-container-left {
+
+      width: 47%;
+      height: auto;
+      background-color: $gray;
+      padding: 80px;
+      float: left;
+      border-radius: 16px;
+      display: block;
+      position: relative;
+
+      // Breakpoints
+
+      @media screen and (min-width: $breakpoint__small) and (max-width: $breakpoint__medium) {
+        
+        width: 100%;
+        padding: 40px;
+        margin-bottom: 40px;
+
+      }
+
+      button.play-button {
+        position: absolute;
+        width: 80px;
+        height: 80px;
+        display: block;
+        left: 0;
+        margin: 0 auto;
+        right: 0;
+        top: 45%;
+
+        background-color: transparent;
+        color: none;
+        z-index: 1000;
+        cursor: pointer;
+
+        font-size: 0;
+        transition: 0.2s;
+      }
+
+      button.pause-button {
+        position: absolute;
+        width: 80px;
+        height: 80px;
+        display: block;
+        left: 0;
+        margin: 0 auto;
+        right: 0;
+        top: 45%;
+
+        background-color: transparent;
+        color: none;
+        cursor: pointer;
+
+        font-size: 0;
+        transition: 0.2s;
+        opacity: 0;
+        z-index: 999;
+      }
+
+      div.video-overlay {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: $black;
+        z-index: 1;
+        cursor: pointer;
+        border-radius: 16px;    
+        transition: 0.5s;    
+        opacity: 0;
+      }
+
+      video {
+        box-shadow: 0px 16px 40px 0px rgba($black, 0.2);
+        width: 100%;
+        height: auto;
+        cursor: pointer;
+        transition: 0.5s;
+      }
+
+    }
+
+    div.video-container-right {
+
+      width: 47%;
+      height: auto;
+      background-color: $gray;
+      padding: 80px;
+      float: right;
+      border-radius: 16px;
+      display: block;
+      position: relative;
+
+      // Breakpoints
+
+      @media screen and (min-width: $breakpoint__small) and (max-width: $breakpoint__medium) {
+  
+        width: 100%;
+        padding: 40px;
+
+      }
+
+      button.play-button {
+        position: absolute;
+        width: 80px;
+        height: 80px;
+        display: block;
+        left: 0;
+        margin: 0 auto;
+        right: 0;
+        top: 45%;
+
+        background-color: transparent;
+        color: none;
+        z-index: 1000;
+        cursor: pointer;
+
+        font-size: 0;
+        transition: 0.2s;
+      }
+
+      button.pause-button {
+        position: absolute;
+        width: 80px;
+        height: 80px;
+        display: block;
+        left: 0;
+        margin: 0 auto;
+        right: 0;
+        top: 45%;
+
+        background-color: transparent;
+        color: none;
+        cursor: pointer;
+
+        font-size: 0;
+        transition: 0.2s;
+        opacity: 0;
+        z-index: 999;
+      }
+
+      div.video-overlay {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: $black;
+        z-index: 1;
+        cursor: pointer;
+        border-radius: 16px;    
+        transition: 0.5s;    
+        opacity: 0;
+      }
+
+      video {
+        box-shadow: 0px 16px 40px 0px rgba($black, 0.2);
+        width: 100%;
+        height: auto;
+        cursor: pointer;
+        transition: 0.5s;
+      }
+
+    }
+
+  }
+
+  article.col-1-asset {
+
+    margin-bottom: 80px;
+
+    // Breakpoints
+
+    @media screen and (min-width: $breakpoint__medium) and (max-width: $breakpoint__large) {
+
+      margin-bottom: 40px;
+
+    }
+
+    @media screen and (min-width: $breakpoint__small) and (max-width: $breakpoint__medium) {
+      
+      margin-bottom: 40px;
+
+    }
+
+    div.col-left {
+
+      div.content-block {
+
+        img.project-image {
+
+          width: 100%;
+          height: auto;
+          border-radius: 16px;
+
+        }
+
+      }
+
+    }
+
+    div.video-container-web {
+
+      width: 100%;
+      height: auto;
+      background-color: $gray;
+      padding: 80px;
+      border-radius: 16px;
+      display: block;
+      position: relative;
+
+      // Breakpoints
+
+      @media screen and (min-width: $breakpoint__small) and (max-width: $breakpoint__medium) {
+        
+        width: 100%;
+        padding: 40px;
+        margin-bottom: 40px;
+
+      }
+
+      button.play-button {
+        position: absolute;
+        width: 80px;
+        height: 80px;
+        display: block;
+        left: 0;
+        margin: 0 auto;
+        right: 0;
+        top: 45%;
+
+        background-color: transparent;
+        color: none;
+        z-index: 1000;
+        cursor: pointer;
+
+        font-size: 0;
+        transition: 0.2s;
+
+        @media screen and (min-width: $breakpoint__small) and (max-width: $breakpoint__medium) {
+        
+          top: 40%;
+  
+        }
+        
+      }
+
+      button.pause-button {
+        position: absolute;
+        width: 80px;
+        height: 80px;
+        display: block;
+        left: 0;
+        margin: 0 auto;
+        right: 0;
+        top: 45%;
+
+        background-color: transparent;
+        color: none;
+        cursor: pointer;
+
+        font-size: 0;
+        transition: 0.2s;
+        opacity: 0;
+        z-index: 999;
+
+        @media screen and (min-width: $breakpoint__small) and (max-width: $breakpoint__medium) {
+        
+          top: 40%;
+  
+        }
+
+      }
+
+      div.video-overlay {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: $black;
+        z-index: 1;
+        cursor: pointer;
+        border-radius: 16px;    
+        transition: 0.5s;    
+        opacity: 0;
+      }
+
+      video {
+        box-shadow: 0px 16px 40px 0px rgba($black, 0.2);
+        width: 100%;
+        height: auto;
+        cursor: pointer;
+        transition: 0.5s;
+      }
+
+    }
+
+    div.video-container-mobile {
+
+      width: 100%;
+      height: auto;
+      background-color: $gray;
+      padding-top: 160px;
+      padding-bottom: 160px;
+      padding-left: 450px;
+      padding-right: 450px;
+      border-radius: 16px;
+      display: block;
+      position: relative;
+
+      // Breakpoints
+
+      @media screen and (min-width: $breakpoint__small) and (max-width: $breakpoint__medium) {
+        
+        width: 100%;
+        padding: 40px;
+        margin-bottom: 40px;
+
+      }
+
+      button.play-button {
+        position: absolute;
+        width: 80px;
+        height: 80px;
+        display: block;
+        left: 0;
+        margin: 0 auto;
+        right: 0;
+        top: 45%;
+
+        background-color: transparent;
+        color: none;
+        z-index: 1000;
+        cursor: pointer;
+
+        font-size: 0;
+        transition: 0.2s;
+      }
+
+      button.pause-button {
+        position: absolute;
+        width: 80px;
+        height: 80px;
+        display: block;
+        left: 0;
+        margin: 0 auto;
+        right: 0;
+        top: 45%;
+
+        background-color: transparent;
+        color: none;
+        cursor: pointer;
+
+        font-size: 0;
+        transition: 0.2s;
+        opacity: 0;
+        z-index: 999;
+      }
+
+      div.video-overlay {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: $black;
+        z-index: 1;
+        cursor: pointer;
+        border-radius: 16px;    
+        transition: 0.5s;    
+        opacity: 0;
+      }
+
+      video {
+        box-shadow: 0px 16px 40px 0px rgba($black, 0.2);
+        width: 100%;
+        height: auto;
+        cursor: pointer;
+        transition: 0.5s;
+      }
+
+    }
+
+  }
+
+  article.project-links {
+
+    margin-bottom: 80px;
+    overflow: auto;
+    display: block; 
+
+    // Breakpoints
+
+    @media screen and (min-width: $breakpoint__medium) and (max-width: $breakpoint__large) {
+
+      margin-top: 80px;
+ 
+     }
+
+    @media screen and (min-width: $breakpoint__small) and (max-width: $breakpoint__medium) {
+
+     margin-bottom: 40px;
+
+    }
+
+    a.prev-project {
+
+      display: inline-block;
+
+      // Breakpoints
+
+      @media screen and (min-width: $breakpoint__small) and (max-width: $breakpoint__medium) {
+
+        width: 50%;
+
+      }
+
+      img#back-arrow {
+        
+        float: left;
+        display: inline-block;
+        margin-right: 16px;
+
+        // Breakpoints
+
+        @media screen and (min-width: $breakpoint__small) and (max-width: $breakpoint__medium) {
+
+          width: 24px;
+          height: 24px;
+
+          margin-left: 0;
+          margin-right: 0;
+          display: block;
+          margin-bottom: 8px;
+
+        }
+
+      }
+
+      p {
+
+        float: right;
+        display: inline-block;
+
+        font-family: OverpassMono-Regular;
+        font-size: $font-size__18;
+        line-height: $line-height__24;
+        color: $black;
+        -moz-osx-font-smoothing: grayscale;
+        -webkit-font-smoothing: antialiased;;
+
+        // Breakpoints
+
+        @media screen and (min-width: $breakpoint__small) and (max-width: $breakpoint__medium) {
+
+          font-size: $font-size__16;
+          line-height: $line-height__24;
+          float: left;
+          width: 100%;
+
+        }
+
+      }
+
+    }
+
+    a.next-project {
+
+      display: inline-block;
+      float: right;
+
+      // Breakpoints
+
+      @media screen and (min-width: $breakpoint__small) and (max-width: $breakpoint__medium) {
+
+        width: 50%;
+
+      }
+
+      img#next-arrow-top {
+
+        float: right;
+        display: inline-block;
+        margin-left: 16px;
+        display: none;
+
+        // Breakpoints
+
+        @media screen and (min-width: $breakpoint__small) and (max-width: $breakpoint__medium) {
+
+          width: 24px;
+          height: 24px;
+
+          display: block;
+          text-align: right;
+          margin-bottom: 8px;
+
+        }
+
+      }
+
+      img#next-arrow {
+
+        float: right;
+        display: inline-block;
+        margin-left: 16px;
+
+        // Breakpoints
+
+        @media screen and (min-width: $breakpoint__small) and (max-width: $breakpoint__medium) {
+
+          width: 24px;
+          height: 24px;
+
+          display: none;
+          text-align: right;
+
+        }
+
+      }
+
+      p {
+
+        float: left;
+        
+        font-family: OverpassMono-Regular;
+        font-size: $font-size__18;
+        line-height: $line-height__24;
+        color: $black;
+        -moz-osx-font-smoothing: grayscale;
+        -webkit-font-smoothing: antialiased;
+
+        // Breakpoints
+
+        @media screen and (min-width: $breakpoint__small) and (max-width: $breakpoint__medium) {
+
+          font-size: $font-size__16;
+          line-height: $line-height__24;
+          float: right;
+          text-align: right;
+          width: 100%;
+
+        }
+
+      }
+
+    }
+
+  }
+
+}
+

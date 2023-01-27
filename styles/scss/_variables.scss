@@ -1,0 +1,102 @@
+
+
+
+// =====
+// Width
+// =====
+
+$max-width: 1280px;
+
+
+
+// =======
+// Margins
+// =======
+
+$spacing__extra-small: 8px;
+$spacing__small: 16px;
+$spacing__medium: 40px;
+$spacing__large: 120px;
+
+
+
+// ======
+// Height
+// ======
+
+$height__flexible__small: 2em;
+$height__flexible__medium: 5em;
+$height__flexible__large: 7em;
+
+
+
+
+
+// ==========
+// Typography
+// ==========
+
+// Font Sizes
+
+$font-size__12: 12px;
+$font-size__14: 14px;
+$font-size__16: 16px;
+$font-size__18: 18px;
+$font-size__20: 20px;
+$font-size__22: 22px;
+$font-size__24: 24px;
+$font-size__40: 40px;
+$font-size__48: 48px;
+$font-size__72: 72px;
+
+// Line Height
+
+$line-height__24: 24px;
+$line-height__30: 30px;
+$line-height__40: 40px;
+$line-height__74: 74px;
+
+
+
+// ======
+// Colors
+// ======
+
+$black: #111;
+$gray: #F8F8F8;
+$gray2: #A2A2A2;
+$white: #fff;
+
+$dark-blue: #3D4961;
+$orange: #C78758;
+$maroon: #BA969D;
+
+
+
+
+
+$black__transparent: rgba(17, 17, 17, 0.8);
+$white: #fff;
+$gray__dark: #222;
+$gray__light: #CFCFCF;
+$blue: #3884F8;
+$blue__transparent: rgba(56, 132, 248, 0.4);
+
+
+// ===========
+// Box-Shadows
+// ===========
+
+$light-shadow: 0px 16px 24px 0px rgba(17, 17, 17, 0.24);
+$heavy-shadow: 0px 40px 40px 0px rgba(17, 17, 17, 0.80);
+
+
+
+// ===========
+// Breakpoints
+// ===========
+
+$breakpoint__extra-large: 2559px;
+$breakpoint__large: 1439px;
+$breakpoint__medium: 767px;
+$breakpoint__small: 319px;

@@ -1,0 +1,33 @@
+
+
+
+@import 'variables';
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  text-decoration: none;
+  list-style: none;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+}
+
+*::selection {
+  color: $black;
+  background: $white;
+}
+
+::-moz-selection {
+    color: $black;
+    background: $white;
+}
+
+body {
+  overflow-x: none;
+  -moz-osx-font-smoothing: grayscale; /*(For Firefox)*/
+  -webkit-font-smoothing: antialiased; /*(For Chrome and Safari)*/
+}

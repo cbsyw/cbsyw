@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  text-decoration: none;
+  list-style: none;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box; }
+
+*::selection {
+  color: #111;
+  background: #fff; }
+
+::-moz-selection {
+  color: #111;
+  background: #fff; }
+
+body {
+  overflow-x: none;
+  -moz-osx-font-smoothing: grayscale;
+  /*(For Firefox)*/
+  -webkit-font-smoothing: antialiased;
+  /*(For Chrome and Safari)*/ }
+
+@font-face {
+  font-family: LibreBaskerville-Bold;
+  src: url(../fonts/lb/LibreBaskerville-Bold.ttf); }
+@font-face {
+  font-family: LibreBaskerville-Regular;
+  src: url(../fonts/lb/LibreBaskerville-Regular.ttf); }
+@font-face {
+  font-family: OverpassMono-Bold;
+  src: url(../fonts/om/OverpassMono-Bold.ttf); }
+@font-face {
+  font-family: OverpassMono-SemiBold;
+  src: url(../fonts/om/OverpassMono-SemiBold.ttf); }
+@font-face {
+  font-family: OverpassMono-Regular;
+  src: url(../fonts/om/OverpassMono-Regular.ttf); }
+@font-face {
+  font-family: OverpassMono-Light;
+  src: url(../fonts/om/OverpassMono-Light.ttf); }
+footer {
+  background-color: #111;
+  color: #fff;
+  margin-top: 80px;
+  padding-top: 80px;
+  padding-bottom: 40px;
+  clear: both; }
+  @media screen and (min-width: 767px) and (max-width: 1439px) {
+    footer {
+      padding-left: 80px;
+      padding-right: 80px; } }
+  @media screen and (min-width: 319px) and (max-width: 767px) {
+    footer {
+      margin-top: 16px;
+      padding-top: 40px;
+      padding-left: 16px;
+      padding-right: 16px; } }
+  footer section {
+    max-width: 880px;
+    margin-left: auto;
+    margin-right: auto; }
+    footer section h1 {
+      font-family: LibreBaskerville-Regular;
+      font-size: 24px;
+      margin-bottom: 24px;
+      line-height: 30px; }
+      @media screen and (min-width: 319px) and (max-width: 767px) {
+        footer section h1 {
+          font-size: 22px; } }
+    footer section p {
+      font-family: OverpassMono-Regular;
+      line-height: 24px; }
+    footer section a {
+      font-family: OverpassMono-Regular;
+      line-height: 24px;
+      color: #fff;
+      text-decoration: underline; }
+    footer section p.company {
+      font-size: 18px;
+      line-height: 24px; }
+      @media screen and (min-width: 319px) and (max-width: 767px) {
+        footer section p.company {
+          font-size: 16px; } }
+    footer section p.job, footer section p.tenure, footer section p.published {
+      font-size: 14px;
+      color: #A2A2A2; }
+      @media screen and (min-width: 319px) and (max-width: 767px) {
+        footer section p.job, footer section p.tenure, footer section p.published {
+          font-size: 12px; } }
+    footer section article.experience-writing {
+      display: grid;
+      grid-template-columns: repeat(2, auto);
+      grid-column-gap: 7rem;
+      margin-bottom: 7rem; }
+      @media screen and (min-width: 319px) and (max-width: 767px) {
+        footer section article.experience-writing {
+          grid-template-columns: repeat(1, auto);
+          margin-bottom: 4rem; } }
+      @media screen and (min-width: 319px) and (max-width: 767px) {
+        footer section article.experience-writing div.experience {
+          margin-bottom: 40px; } }
+      footer section article.experience-writing div.experience div.role {
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+        margin-bottom: 16px; }
+        footer section article.experience-writing div.experience div.role p.company {
+          grid-column: 1 / span 2; }
+        footer section article.experience-writing div.experience div.role p.tenure {
+          text-align: right; }
+      footer section article.experience-writing div.writing div.article {
+        display: grid;
+        grid-template-columns: repeat(2, auto); }
+        footer section article.experience-writing div.writing div.article a.title {
+          grid-column: 1 / span 2; }
+    footer section article.social {
+      text-align: center; }
+      @media screen and (min-width: 319px) and (max-width: 767px) {
+        footer section article.social {
+          text-align: left; } }
+      footer section article.social a {
+        text-decoration: none; }
+      footer section article.social img.social-icon {
+        margin-right: 8px;
+        margin-bottom: 40px; }
+      footer section article.social #spotify {
+        margin-right: 0px; }
+      footer section article.social p {
+        font-family: OverpassMono-Regular;
+        font-size: 12px;
+        color: #A2A2A2; }
+
+/*# sourceMappingURL=footer.css.map */
