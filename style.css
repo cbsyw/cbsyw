@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    font-family: 'Nunito';
+}
+
+
+
+.container{
+    width: 1000px;
+    margin: auto;
+}
+
+
+.heroContent{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title{
+    height: 500px;
+    width: 700px;
+    font-size: 40px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    align-self: center;
+}
+
+
+nav li{
+    text-decoration: none;
+    list-style: none;
+    font-size: 25px;    
+    font-weight: bold;
+    line-height: 60px;
+}
+
+nav li a{
+    color: rgb(56, 56, 56);
+}
+
+nav li a.active {
+    font-weight:600;
+    color: rgba(102, 102, 102, 0.6); /* Adjust the color to make it lighter */
+}
+
+
+
+.contentContainer{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.caseStudy{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 35px;
+    font-weight: bold;
+    height: 100px;
+}
+
+.caseStudy a{
+    color: rgb(56, 56, 56);
+}
+
+.caseStudy h3{
+    font-size: 20px;
+    font-weight: 200;
+}
+
+
+.caseStudy-image{
+    height: auto;
+    width: 300px;
+}
+
+
+
+.contentContainer-about{
+    display: flex;
+    flex-direction: column;
+    font-size: 25px;
+    line-height:50px;
+}
+
+.contentContainer-about p{
+    margin-bottom: 15px;
+}
+
+.contentContainer-project{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin: auto;
+    gap: 30px;
+}
+
+.contentContainer-project img{
+    align-self: center;
+}
+
+.contentContainer-project h2{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.contentContainer-project h3{
+    font-size: 25px;
+}
+.contentContainer-project p{
+    font-size: 25px;
+}
+
+
+
+footer{
+    height: 300px;
+}
