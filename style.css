@@ -60,6 +60,7 @@ nav li a.active {
 .contentContainer{
     display: flex;
     flex-direction: column;
+    gap: 30px;
 }
 
 
@@ -129,5 +130,9 @@ nav li a.active {
 
 
 footer{
-    height: 300px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
 }
