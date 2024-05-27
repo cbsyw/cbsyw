@@ -1,12 +1,16 @@
-document.addEventListener("DOMContentLoaded", function() {
-    const links = document.querySelectorAll('nav ul li a');
+let topButton = document.getElementById("topBtn");
 
-    links.forEach(function(link) {
-        link.addEventListener('click', function() {
-            links.forEach(function(otherLink) {
-                otherLink.classList.remove('active');
-            });
-            this.classList.add('active');
-        });
-    });
-});
+window.onscroll = function() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        topButton.style.display = "block";
+        topButton.style.opacity = "1";
+    } else {
+        topButton.style.display = "none";
+        topButton.style.opacity = "0";
+    }
+};
+
+topButton.onclick = function() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+};
