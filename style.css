@@ -192,10 +192,6 @@ footer{
 
 /* Media Queries */
 @media (max-width: 768px) {
-
-
-
-
     .heroContent{
         display: flex;
         flex-direction: row;
@@ -278,22 +274,103 @@ footer{
 
 
 
+.contentContainer-project img{
+    width: 740px;
+    height: auto;
 }
 
+
+}
+
+
+/* Media Queries */
 @media (max-width: 480px) {
+    .heroContent{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .title{
+        height: 200px;
+        width: 480px;
+        font-size: 40px;
+        font-weight: bold;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        align-self: flex-start;
+
+        padding-left: 15px;
+    }
+
+
+    .heroContent{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+
+
     .title {
-        font-size: 18px;
+        font-size: 30px;
     }
 
-    .caseStudy {
-        font-size: 18px;
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+        padding-left: 15px;
+        margin-bottom: 100px;
     }
 
-    .caseStudy h3 {
-        font-size: 14px;
+
+
+    .caseStudy{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 35px;
+        font-weight: bold;
+        height: 150px;
     }
 
-    .caseStudy-image {
-        width: 100%;
+    .caseStudy a{
+        color: rgb(0, 0, 0);
     }
+
+    .caseStudy a:hover{
+        color: rgba(134, 134, 134, 0.6); 
+        transition: 0.2s;
+    }
+
+    .caseStudy h3{
+        font-size: 20px;
+        font-weight: 200;
+    }
+
+
+    .caseStudy-image{
+        height: auto;
+        width: 480px;
+        
+    }
+
+    .container{
+        width: 480px;
+        margin: auto;
+    }
+    
+
+
+
+
+.contentContainer-project img{
+    width: 480px;
+    height: auto;
+}
+
+
 }
