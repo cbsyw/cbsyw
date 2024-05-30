@@ -375,7 +375,7 @@ footer{
 
 
 /* Media Queries */
-@media (max-width: 370px) {
+@media (max-width: 440px) {
     .heroContent{
         display: flex;
         flex-direction: row;
